@@ -1,7 +1,5 @@
 'use strict';
 
-Object.defineProperty(exports, '__esModule', { value: true });
-
 var core = require('@capacitor/core');
 
 exports.Level = void 0;
@@ -60,12 +58,6 @@ const FFMpeg = core.registerPlugin('FFMpeg', {
 });
 
 class FFMpegWeb extends core.WebPlugin {
-    constructor() {
-        super({
-            name: 'FFMpeg',
-            platforms: ['web'],
-        });
-    }
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     runCmd(_) {
         throw new Error('Method not implemented.');

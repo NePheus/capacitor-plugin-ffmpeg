@@ -57,12 +57,6 @@ var capacitorFFMpeg = (function (exports, core) {
     });
 
     class FFMpegWeb extends core.WebPlugin {
-        constructor() {
-            super({
-                name: 'FFMpeg',
-                platforms: ['web'],
-            });
-        }
         // eslint-disable-next-line @typescript-eslint/no-unused-vars
         runCmd(_) {
             throw new Error('Method not implemented.');
@@ -75,8 +69,6 @@ var capacitorFFMpeg = (function (exports, core) {
     });
 
     exports.FFMpeg = FFMpeg;
-
-    Object.defineProperty(exports, '__esModule', { value: true });
 
     return exports;
 
