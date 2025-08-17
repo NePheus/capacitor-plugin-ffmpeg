@@ -1,8 +1,8 @@
 package nepheus.capacitor.ffmpeg;
 
-import com.arthenica.ffmpegkit.FFmpegKitConfig;
-import com.arthenica.ffmpegkit.FFmpegKit;
-import com.arthenica.ffmpegkit.ReturnCode;
+import com.antonkarpenko.ffmpegkit.FFmpegKitConfig;
+import com.antonkarpenko.ffmpegkit.FFmpegKit;
+import com.antonkarpenko.ffmpegkit.ReturnCode;
 
 import com.getcapacitor.JSObject;
 import com.getcapacitor.Plugin;
